@@ -44,3 +44,14 @@ while pilihan == "Y":
         print("\n Hi,  "+nama+" Anda Sepertinya Banyak Hutang")
       else :
         print("\n Hi, "+nama+" Anda Sepertinya Tidak Mau Berobat")
+
+    else :
+      print("\n Hi, "+nama+" Anda Sepertinya Butuh Uang")
+
+  elif diag1 == "N":
+    print("\n Hi, "+nama+" Anda Sepertinya Tidak Sakit")
+  else :
+    print("\n Hi, "+nama+" Anda Sepertinya Hanya Main-Main Saja")
+    
+  print("+===================================================+")
+  pilihan = input("Hello,"+nama+"\n Apakah Anda Ingin Melakukan Diagnosa ? (Y/N): ")
