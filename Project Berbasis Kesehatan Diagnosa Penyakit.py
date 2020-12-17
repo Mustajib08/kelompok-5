@@ -35,3 +35,12 @@ while pilihan == "Y":
       print("3.Hilangnya Indra Perasa/Penciuman")
       print("4.Nyeri Tengkorokan ")
       diag3 = input(" Jawab Y/N : ")
+
+      if diag3 == "Y" :
+        print("\n Hi, "+nama+" Hasil Awal Diagnosa Kamu Adalah :")
+        print(" Gejala Covid-19,Segeralah Kedokter !!!")
+        
+      elif diag3 == "N":
+        print("\n Hi,  "+nama+" Anda Sepertinya Banyak Hutang")
+      else :
+        print("\n Hi, "+nama+" Anda Sepertinya Tidak Mau Berobat")
