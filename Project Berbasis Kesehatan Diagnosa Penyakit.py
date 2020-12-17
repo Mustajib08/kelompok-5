@@ -55,3 +55,13 @@ while pilihan == "Y":
     
   print("+===================================================+")
   pilihan = input("Hello,"+nama+"\n Apakah Anda Ingin Melakukan Diagnosa ? (Y/N): ")
+ 
+  if pilihan == "Y":
+    os.system("cls")
+    print("+==========================================================+")
+    print("|\tSelamat Datang Di Aplikasi Sistem Kesehatan\t   |")
+    print("|\t\t   Deteksi Tifus & Covid-19\t\t   |")
+    print("+==========================================================+")
+  else :
+    print("\n+=========***<(^.^)>~TERIMA KASIH~<(^.^)>***=========+")
+    
