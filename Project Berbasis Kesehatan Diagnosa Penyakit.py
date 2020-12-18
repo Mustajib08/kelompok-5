@@ -17,7 +17,7 @@ while pilihan == "Y":
   print("4.Kelelahan & Lemas ")
   diag1 = input(" Jawab Y/N : ")
 
-  if diag1 == "Y":
+   if diag1 == "Y":
     print("\n Apakah Anda Juga Merasakan Gejala Ini :")
     print("5.Ruam Merah ")
     print("6.Mual Muntah")
@@ -31,7 +31,7 @@ while pilihan == "Y":
     elif diag2 == "N":
       print("\n Apakah Anda Juga Mersakan Gejala Berikut Ini :")
       print("1.Demam/Suhu Badan Tinggi")
-      print("2.Sakit Kepla")
+      print("2.Sakit Kepala")
       print("3.Hilangnya Indra Perasa/Penciuman")
       print("4.Nyeri Tengkorokan ")
       diag3 = input(" Jawab Y/N : ")
